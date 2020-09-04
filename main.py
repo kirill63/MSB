@@ -686,7 +686,7 @@ def MAIN():
                                        
                                        
 
-  Spymer Lite Edition (SLE)                                
+  My sms bomber(MSB)                                
                                         """+Style.RESET_ALL
                 print(logo)
 
@@ -797,8 +797,7 @@ def MAIN():
         
     except ModuleNotFoundError:
         os.system('cls' if os.name=='nt' else 'clear')
-        print("Установить недостающие библиотеки?")
-        install = input("Spymer Lite > ")
+        print("Установливаю недостающие библиотеки.")
         os.system("python -m pip install requests colorama proxyscrape")
 
         MAIN()
